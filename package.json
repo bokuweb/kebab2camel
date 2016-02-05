@@ -1,5 +1,5 @@
 {
-  "name": "camel2kebab",
+  "name": "kebab2camel",
   "version": "1.0.0",
   "description": "Transform camel case to kebab case",
   "main": "index.js",
