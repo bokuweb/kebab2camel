@@ -4,6 +4,8 @@ Transform camel case to kebab case
 ## OverView
 
 ``` javascript
+const camel2kebab = require('camel2kebab');
+
 camel2kebab('camelKebab') // camel-kebab
 camel2kebab.reverse('camel-kebab') // camelKebab
 ```
