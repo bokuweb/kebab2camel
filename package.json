@@ -1,0 +1,23 @@
+{
+  "name": "camel2kebab",
+  "version": "1.0.0",
+  "description": "Transform camel case to kebab case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokuweb/camel2kebab.git"
+  },
+  "keywords": [
+    "kebab",
+    "camel"
+  ],
+  "author": "bokuweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bokuweb/camel2kebab/issues"
+  },
+  "homepage": "https://github.com/bokuweb/camel2kebab#readme"
+}
