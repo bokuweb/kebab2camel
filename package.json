@@ -1,14 +1,14 @@
 {
   "name": "kebab2camel",
   "version": "1.0.0",
-  "description": "Transform camel case to kebab case",
+  "description": "Transform kebab case to camel case and inverse",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bokuweb/camel2kebab.git"
+    "url": "git+https://github.com/bokuweb/kebab2camel.git"
   },
   "keywords": [
     "kebab",
@@ -17,9 +17,9 @@
   "author": "bokuweb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bokuweb/camel2kebab/issues"
+    "url": "https://github.com/bokuweb/kebab2camel/issues"
   },
-  "homepage": "https://github.com/bokuweb/camel2kebab#readme",
+  "homepage": "https://github.com/bokuweb/kebab2camel#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"

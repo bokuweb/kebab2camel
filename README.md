@@ -1,21 +1,21 @@
-# camel2kebab
-Transform camel case to kebab case
+# kebab2camel
+Transform kebab case to camel case and inverse
    
 [![Build Status](https://travis-ci.org/bokuweb/camel2kebab.svg?branch=master)](https://travis-ci.org/bokuweb/camel2kebab)
 
 ## OverView
 
 ``` javascript
-const camel2kebab = require('camel2kebab');
+const kebab2camel = require('camel2kebab');
 
-camel2kebab('camelKebab') // camel-kebab
-camel2kebab.reverse('camel-kebab') // camelKebab
+kebab2camel('camel-kebab') // camelKebab
+kebab2camel.reverse('camelKebab') // camel-kebab
 ```
 
 ## Install
 
 ```
-npm i camel2kebab
+npm i kebab2camel
 ```
 
 ## Test
