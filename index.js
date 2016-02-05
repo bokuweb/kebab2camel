@@ -1,13 +1,16 @@
 'use strict';
 
-module.exports = exports = function kebabCase(str) {
-  return str.replace(/([A-Z])/g, function(match) {
-	return '-' + match.toLowerCase();
+function camel2Kebab(str) {
+  return str.replace(/([A-Z])/g, function(m) {
+	return '-' + m.toLowerCase();
   });
 };
 
-exports.reverse = function (str) {
-  return str.replace(/(\-[A-Za-z])/g, function (match) {
-	return match.toUpperCase().replace('-','');
+function reverse(str) {
+  return str.replace(/(\-[A-Za-z])/g, function (m) {
+	return m.toUpperCase().replace('-','');
   });
 };
+
+module.exports = exports = camel2Kebab;
+exports.reverse = reverse;

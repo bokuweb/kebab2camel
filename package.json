@@ -4,7 +4,7 @@
   "description": "Transform camel case to kebab case",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/bokuweb/camel2kebab/issues"
   },
-  "homepage": "https://github.com/bokuweb/camel2kebab#readme"
+  "homepage": "https://github.com/bokuweb/camel2kebab#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
